@@ -1,0 +1,133 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Cool Company</title>
+        <link rel="stylesheet" href="style.css" />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+        />
+        <script src="script.js"></script> 
+    </head>
+
+    <body>
+        <header>
+            <div class="conteiner-header">
+                <div class="conteiner-header__left">
+                    <div class="conteiner-header__logo">
+                        <img src="logo.png" alt="" class="logo"/>
+                    </div>
+                    <h1 class="conteiner-header__left__h1 text--white">
+                        С помощью нас <br />вы сможете создать то, о чем
+                    </h1>
+                    <span class="conteiner-header__left__span text--white"
+                        >желаете!</span
+                    >
+                    <p class="conteiner-header__left__p text--white">
+                        Наши возможности + опыт позволяет Вам достичь огромного
+                        успеха. Мы верим в вас! И знаем это на все 100%. Вас не
+                        остановить!
+                    </p>
+                    <a href="#" class="conteiner-header__left__button"
+                        >Узнать больше...</a
+                    >
+                </div>
+                <div class="conteiner-header__right">
+                    <img
+                        src="header-img.png"
+                        alt=""
+                        class="conteiner-header__right__"
+                    />
+                </div>
+            </div>
+        </header>
+
+        <main class="main">
+            <section class="section-first">
+                <div class="section-first__title">
+                    <h1  class="title">Что Вам необходимо?</h1>
+                </div>
+                <div class="section-first__container">
+                    <div class="section-first__container-block">
+                        <img class="animate__animated animate__heartBeat animate__delay-2s" src="f3.png" alt="" />
+                        <h2>Первый блок</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit.
+                        </p>
+                    </div>
+                    <div class="section-first__container-block">
+                        <img class="animate__animated animate__bounce animate__delay-2s" src="f4.png" alt="" />
+                        <h2>Второй блок</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit.
+                        </p>
+                    </div>
+                    <div class="section-first__container-block">
+                        <img class="animate__animated animate__fadeInDown animate__delay-2s" src="f5.png" alt="" />
+                        <h2>Третий блок</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit.
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="product"> 
+                <div class="section-second"> 
+                    <h2 class="title1" id="dasha123">Форма заказа продукта или услуги</h2> 
+                    <form name="second" action="#" method="post" enctype="multipart/form-data"> 
+                        <div class="form-group"> 
+                            <label for="name">Ваше Имя:</label> 
+                            <input type="text" id="name"> 
+                            <div class="error"></div>  
+                        </div> 
+                        <div class="form-group"> 
+                            <label for="phone">Ваш телефон:</label> 
+                            <input type="tel" id="phone" placeholder="8-ХХХ-ХХХ-ХХ-ХХ"> 
+                            <div class="error"></div> 
+                        </div> 
+                        <div class="form-group"> 
+                            <label for="adres">Адрес доставки:</label> 
+                            <input type="text" id="adres"> 
+                            <div class="error"></div> 
+                        </div> 
+                        <div class="form-group"> 
+                            <label for="col">Количество:</label> 
+                            <input type="number" id="col"> 
+                            <div class="error"></div> 
+                        </div> 
+                        <input type="submit" class="dasha12" value="Отправить заказ!"> 
+                    </form> 
+                </div> 
+            </section> 
+
+            <section class="section-second">
+                <h1 class="title  animate__animated animate__zoomIn animate__delay-2s">Форма заказа обратной связи</h1>
+                <form name="first" action="#" method="post" enctype="multipart/form-data">
+                    <input type="text" placeholder="Имя">
+                    <input type="email" placeholder="Email">
+                    <input type="tel" placeholder="Телефон">
+                    <input type="text" placeholder="Какая тема интересует?">
+                    <button class= "dasha" type="submit" method="post">Отправить вопрос!</button>
+                </form>
+            </section>
+
+        </main>
+        
+        <footer class="footer text--white">ⒸВсё на этом сайте защищено</footer>
+        
+    </body>
+</html>
